@@ -7,12 +7,13 @@
 body {
     margin: 35px 70px 35px 70px;
     background-color: whitesmoke;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', 'Montserrat', sans-serif;
 }
 
 .container {
     display: grid;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, .15);
+    border: 1px solid rgba(0, 0, 0, .1);
 }
 
 .nav-bar {
@@ -81,20 +82,17 @@ body {
 /* Style the social media icons with color, if you want */
 
 .facebook:hover,
-.twitter:hover,
 .google:hover,
-.youtube:hover,
+.instagram:hover,
 .linkedin:hover {
+    transition: all .2 ease;
     background-color: lightgray;
+    background-image: none;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, .25);
 }
 
 .facebook {
     background: #3B5998;
-}
-
-.twitter {
-    background: #55ACEE;
 }
 
 .google {
@@ -105,8 +103,9 @@ body {
     background: #007bb5;
 }
 
-.youtube {
-    background: #bb0000;
+.instagram {
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
 }
 
 @keyframes shake {
