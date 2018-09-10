@@ -1,0 +1,16 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tenyson Partridge <tenysonpartridge@gmail.com> (http://www.yourhomepage.com)",
+  "license": "ISC",
+  "dependencies": {
+    "code": "^5.2.0",
+    "heroku": "^7.14.4",
+    "node": "^10.10.0"
+  }
+}
